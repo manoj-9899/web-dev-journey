@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display & Positioning</title>
+  <style>
+    body {
+      margin: 0;
+      padding-top: 60px;
+      font-family: sans-serif;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #2e86de;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .floating-box {
+      position: absolute;
+      top: 150px;
+      left: 50px;
+      width: 200px;
+      height: 100px;
+      background-color: #ffeaa7;
+      border: 2px solid #d63031;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Fixed Header</h2>
+  </header>
+
+  <div class="content">
+    <p>This is the main content area. Scroll down to see how the header remains fixed.</p>
+    <div class="floating-box">
+      I am absolutely positioned.
+    </div>
+    <p style="margin-top: 300px;">Some more content below to enable scrolling.</p>
+  </div>
+
+</body>
+</html>
