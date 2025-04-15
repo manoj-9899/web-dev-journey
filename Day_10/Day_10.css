@@ -33,7 +33,7 @@ body {
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
     .card {
-      width: 45%;
+      width: 46%;
     }
   }
   
