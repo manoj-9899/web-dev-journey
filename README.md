@@ -71,8 +71,8 @@ You can use this repository in the following ways:
 4. **Clone the Repository**  
    If you'd like to work offline or contribute:
    ```bash
-   git clone https://github.com/<your-username>/web-dev-jjourney.git
-   cd web-dev-jjourney
+   git clone https://github.com/manoj-9899/web-dev-journey.git
+   cd web-dev-journey
    ```
 
 5. **Stay Updated**  
